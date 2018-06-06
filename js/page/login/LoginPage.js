@@ -34,14 +34,14 @@ export default class LoginPage extends Component {
      * @private
      */
     _onPressLogin = ()=> {
-        if (this.state.username == null || this.state.username.length <= 0) {
-            console.log("请输入用户名");
-            return;
-        }
-        if (this.state.password == null || this.state.password.length <= 0) {
-            console.log("请输入密码");
-            return;
-        }
+        // if (this.state.username == null || this.state.username.length <= 0) {
+        //     console.log("请输入用户名");
+        //     return;
+        // }
+        // if (this.state.password == null || this.state.password.length <= 0) {
+        //     console.log("请输入密码");
+        //     return;
+        // }
         if (this.state.username === 'timmy' && this.state.password === '123') {
             console.log("恭喜登陆成功")
         }
